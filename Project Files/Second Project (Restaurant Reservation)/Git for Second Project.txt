@@ -1,0 +1,32 @@
+
+Git global setup
+
+git config --global user.name "Ahmed Wael"
+git config --global user.email "ahmedeldeebany@gmail.com"
+
+Create a new repository
+
+git clone https://gitlab.com/adelashrafhamouda/assignment_2_6071_6297.git
+cd assignment_2_6071_6297
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Push an existing folder
+
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/adelashrafhamouda/assignment_2_6071_6297.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Push an existing Git repository
+
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/adelashrafhamouda/assignment_2_6071_6297.git
+git push -u origin --all
+git push -u origin --tags
+

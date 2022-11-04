@@ -1,0 +1,58 @@
+[User Manual]
+
+-> First a login screen appears to you and you must enter a valid data of yours to continue through the program.
+-> If you don't have an account you should make one first before you can continue and to do so click on sign up button.
+-> After you click sign up a sign up screen appears to make you create an account.
+-> After you complete creating your account click the register button and save your account then the login screen appears again.
+-> You are asked to then enter your username and  password to contine navigation and press sign in button.
+-> If the data entered belonged to a Customer then you are transfered to Customer Dashboard.
+-> In the customer dashboard you can choose from a list of available tables, assign a reserver name, choose your meals and see thier price and after you finish making your order you click reserve to make an order.
+-> If you want to make a new order press Reset button and make a new one.
+-> You must choose a table and enter a resever name to continue through your order.
+-> When you Finish click Log out button and then you are transfered to the login screen press Exit button to exit from the program.
+-> If the entered data belong to a Waiter you will be transfered to the Waiter Dashboard.
+-> In the waiter dashboard you can see the reserver name and the table number for each reserver.
+-> When you Finish click Log out button and then you are transfered to the login screen press Exit button to exit from the program.
+-> If the entered data belong to a Chef you will be transfered to the Chef Dashboard.
+-> In the chef dashboard you can see the ordered meals and the table number for each order.
+-> When you Finish click Log out button and then you are transfered to the login screen press Exit button to exit from the program.
+-> If the entered data belong to a Manager you will be transfered to the Manager Dashboard.
+-> In the manager dashboard you can see the ordered meals, reserver name, total price for each order and the table number he should also see the total amount of money earned each day.
+
+
+
+(Detailed Labor Division)
+
+
+Name: Ahmed Wael Mohammed
+ID: 6071
+Labor Division:
+--> Sign Up GUI.
+--> Customer GUI.
+--> Cook GUI.
+--> Employee Class.
+--> Order Class.
+--> Orders Class.
+--> User Class.
+--> Users Class.
+--> Error handling.
+--> Some file handling.
+--> Class Diagram.
+--> Project JRE.
+
+Name: Adel Ashraf Mohammed 
+ID: 6297
+Labor Division:
+--> Login GUI.
+--> Manager GUI.
+--> Waiter GUI.
+--> Customer GUI.
+--> Table Class.
+--> Tables Class.
+--> Reservation Class.
+--> Orders XML File.
+--> Users XML File.
+--> Tables XML File.
+--> Reservation XML File.
+--> Some Error handling.
+--> Files and File handling .

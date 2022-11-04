@@ -1,0 +1,47 @@
+ static int seconds =0;
+    static int minutes =0;
+    boolean state =true;
+
+
+
+
+ Thread t = new Thread()
+    {
+      public void run()
+      {
+          for (;;)
+          {
+              if (state == true)
+              {
+                  try
+                  {
+                      sleep(1000);
+                      if (seconds>60)
+                      {
+                          seconds=0;
+                          minutes++;
+                      }
+                      
+                      if (minutes>60)
+                      {
+                          seconds=0;
+                          minutes=0;
+                      }
+                      timeSecondsLabel.setText(" : "+seconds);
+                      seconds++;
+                      timeMinutesLabel.setText(""+minutes);
+                  }
+                  catch (Exception e)
+                  {
+                      
+                  }
+                  
+              }
+              else
+              {
+                  break;
+              }
+          }
+      }
+    };
+        t.start();

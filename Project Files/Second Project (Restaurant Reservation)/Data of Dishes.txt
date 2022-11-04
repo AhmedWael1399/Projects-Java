@@ -1,0 +1,39 @@
+</ tables >
+< dishes >
+< dish >
+< name > Grilled Chicken </ name >
+< price > 75 </ price >
+< type > main_course </ type >
+</ dish >
+< dish >
+< name > Greek Salade </ name >
+< price > 35 </ price >
+< type > appetizer </ type >
+</ dish >
+< dish >
+< name > Fried Potatos </ name >
+< price > 30 </ price >
+< type > appetizer </ type >
+</ dish >
+< dish >
+< name > Apple Pie </ name >
+< price > 50 </ price >
+< type > desert </ type >
+</ dish >
+< dish >
+< name > Molten Cake </ name >
+< price > 60 </ price >
+< type > desert </ type >
+</ dish >
+< dish >
+< name > Mushroom Soup </ name >
+< price > 60 </ price >
+< type > main_course </ type >
+</ dish >
+< dish >
+< name > Beef Steak </ name >
+< price > 80 </ price >
+< type > main_course </ type >
+</ dish >
+</ dishes >
+</ restaurant >
